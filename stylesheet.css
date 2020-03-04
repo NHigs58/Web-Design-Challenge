@@ -1,0 +1,42 @@
+.nav {
+  color: turquoise;
+}
+
+body {
+  background-color: lightgray;
+}
+
+.nav-link {
+  color: blue;
+}
+
+.col-md-12 {
+  background-color: white;
+}
+
+input {
+  background-color: turquoise;
+  color: white;
+  font-size: 30px;
+}
+
+.container1 {
+  background-color: white;
+}
+
+.container2 {
+  background-color: white;
+}
+
+.responsive {
+  max-width: 100%;
+  height: auto;
+  border: 2px solid black;
+}
+
+.primary {
+  max-width: 100%;
+  height: auto;
+  border: 2px solid lightgreen;
+
+}
