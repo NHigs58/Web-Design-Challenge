@@ -6,8 +6,8 @@ body {
   background-color: lightgray;
 }
 
-.nav-link {
-  color: blue;
+nav {
+  background-color: white;
 }
 
 .col-md-12 {
