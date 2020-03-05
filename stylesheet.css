@@ -20,14 +20,6 @@ input {
   font-size: 30px;
 }
 
-.container1 {
-  background-color: white;
-}
-
-.container2 {
-  background-color: white;
-}
-
 .responsive {
   display: block;
   max-width: 100%;
@@ -53,4 +45,52 @@ input {
 h2 {
   color: turquoise;
   font-style: bold;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+.table-scroll {
+height: 400px !important;
+  overflow-y: scroll;
+}
+
+td, th {
+  border: 1px solid white;
+  text-align: center;
+  padding: 5px;
+}
+
+tr:nth-child(even) {
+  background-color:lightgray;
+}
+
+tr:nth-child(odd){
+background: white;
+}
+
+.navbar {
+  padding-left: 50px;
+}
+
+.navbar-brand {
+  background-color: turquoise;
+  padding: 10px;
+}
+  
+  @media (max-width: 480px) {
+    .navbar li {
+      padding: 10px;
+    }
+    .box {
+      margin-right: 20px;
+      margin-left: 20px;
+    }
+    .navbar ul {
+      visibility: hidden;
+    }
+    #nav-select {
+      visibility: visible;
+    }
 }
